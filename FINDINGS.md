@@ -28,7 +28,7 @@ Running log. Newest at the bottom. Format per finding:
 - **So what:** prevention spend should move toward home and elderly fall safety; powered scooters and e-bikes are new categories (powered scooters 115k est in 2024)
 - **Confidence:** med. Caveat: product categories changed between years (e.g. Toys rename, powered scooters split), so check the narrative before claiming a new category is real growth
 
-### Flagging the riskiest 20% of ER visits catches 76% of hospital admissions (3.8x random)
+### [Round-1 prep, SUPERSEDED for the pitch by the weighted severity model in section B, analysis/24] Flagging the riskiest 20% of ER visits catches 76% of hospital admissions (3.8x random)
 - **Number:** gradient boosting ROC-AUC 0.894 vs baseline 0.500 (random forest also 0.894; logistic 0.878). Test n = 57,110 visits; admitted rate 8.2% (n = 285,548). Top 10% flagged: 44.5% admitted (5.4x avg), 54.4% of admissions caught
 - **Chart:** charts/gains_chart.png, charts/top_drivers.png
 - **So what:** diagnosis + age + body part alone (all known at triage) sort out who will need a bed. Drivers: fractures 20.3% admitted (n = 44,904) vs sprains 0.6%; oldest age quartile 21.6% vs 2.7–5.0%; upper leg (hip) 29.3% (n = 3,470) vs finger 1.1%; Bathroom products 16.5% vs team sports 2.2%
@@ -45,6 +45,12 @@ Running log. Newest at the bottom. Format per finding:
 ## B. Where the $10M goes (Germaine, branch germaine/recommendation, scripts analysis/2x_*.py, charts/b_*.png)
 
 (append findings below this line)
+
+**Definitions used in B (say which one is on the slide):**
+- "65+ falls, any product" (Marcus, section A): narrative says FELL/FALL/SLIP/TRIP, age 65+. 2024: 3.02M visits, 883k admissions. Use for *how big the hazard is*.
+- "65+ home-fall products" (B): product is floors/rugs, stairs, beds, bathtubs/showers or toilets, age 65+. 2024: 1.93M visits, 622k admissions. Use for *the campaign target*.
+- "admitted" = outcome "Admitted to hospital" only. "e-bike" = new 2024 product code OR e-bike words in the narrative (12.4k admissions in 2024); Marcus's wider union adds "Power-assisted cycles NEC" (18.9k). State which when quoting a multiple.
+- Every national number is SUM(weight); n = sample rows.
 
 ### Over-65s are 26% of 2024 ER visits but 64% of admissions and 59% of deaths; admitted at 4.9x the under-65 rate in every product group
 - **Number:** 2024 est: 65+ = 3.93M visits (26.1%), 1.02M admissions (63.5%), 6.8k deaths (59.3%); n = 15,302 rows. Admission rate 65+ 26.0% vs under-65 5.3% (ratio 1.6x to 10.9x across the 14 product groups). Biggest cells by admissions: Floors/stairs/building parts 65+ 419k, Furniture 65+ 319k, Bathroom 65+ 95k. Bikes & micromobility, all ages, all sexes: 88k admissions; e-bikes alone 12k
