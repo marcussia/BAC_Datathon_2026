@@ -1,0 +1,34 @@
+=== trained 2005-2023, tested on 2024, weighted ===
+                                           model  roc_auc_2024  pr_auc_2024
+            Germaine pre-diagnosis (analysis/24)         0.816        0.329
+Marcus feature set (incl. body part + diagnosis)         0.871        0.475
+                        COMBINED (union of both)         0.876        0.505
+
+=== combined logistic 2023-24 (n = 139,987), 2024 AUC 0.867; odds vs reference, controlling for body part AND diagnosis ===
+variable           level  odds_ratio_vs_ref
+age_band             0-4               0.28
+age_band            5-14               0.34
+age_band           15-24               0.66
+age_band           25-44               1.00
+age_band           45-64               1.89
+age_band           65-74               3.38
+age_band             75+               4.95
+ alcohol              No               1.00
+ alcohol             Yes               1.47
+  fall_f         no fall               1.00
+  fall_f            fall               1.23
+     sex          Female               1.00
+     sex         Unknown               1.25
+     sex            Male               1.41
+ vehicle   pedal bicycle               0.81
+ vehicle powered scooter               0.88
+ vehicle          e-bike               0.97
+ vehicle            none               1.00
+
+=== combined model: expected vs observed 2024 admissions by hazard ===
+                expected_adm  observed_adm  share_expected_%
+hazard                                                      
+E-bike               11868.0       12421.0               1.0
+Fall, 65+           865338.0      881728.0              55.0
+Fall, under 65      312314.0      323872.0              20.0
+Other               395980.0      394043.0              25.0

@@ -94,6 +94,12 @@ Running log. Newest at the bottom. Format per finding:
 - **So what:** the campaign message is concrete: (1) make the two transfers safe, bed and toilet/shower (grab bars, raised seat, bed height, night light on the route); (2) "dizzy when you stand = see your doctor" (medication/blood-pressure review), because those falls are the ones that end in admission; (3) a fall alarm/check-in for people living alone, since unwitnessed falls admit at 49%. Rugs and footwear, the usual leaflet content, are a small share
 - **Confidence:** med. Caveat: keyword themes overlap and depend on nurse wording; 2005/2014 narratives are too short to compare; nursing-home rows show the target also includes care facilities, not just private homes
 
+### Combined model (Marcus's features + Germaine's, temporal split): AUC 0.88 on held-out 2024; 75+ still 5.0x the admission odds of a 25-44 year old, e-bike 0.97x, even controlling for body part and diagnosis
+- **Number:** same weighted gradient boosting, trained 2005-2023 (n = 213,225), tested on 2024 (n = 72,334). Pre-diagnosis feature set (analysis/24): ROC-AUC 0.816, PR-AUC 0.329. Marcus's feature set (age, sex, product group, location, alcohol, body part, diagnosis): 0.871 / 0.475. Union of both: **0.876 / 0.505** (random = 0.107). Logistic odds from the union (2023-24, n = 139,987, AUC 0.867) vs age 25-44: 0-4 0.28x, 45-64 1.9x, 65-74 3.4x, **75+ 4.95x**; alcohol 1.47x; fall 1.23x; male 1.41x; e-bike **0.97x**, powered scooter 0.88x, pedal bicycle 0.81x. Out of sample the combined model assigns 55% of 2024 expected admissions to 65+ falls (865k expected vs 882k observed) and 1% to e-bikes (11.9k vs 12.4k)
+- **Chart:** none (tables analysis/28_combined_auc.csv, 28_combined_odds.csv, 28_combined_expected.csv; script analysis/28_combined_model.py)
+- **So what:** adding what the doctor finds (body part, diagnosis) lifts accuracy from 0.82 to 0.88 but does not move the conclusion: age is the driver and an e-bike adds nothing to admission odds once the injury itself is known. The three models (Colab 2024 logistic 4.3x, analysis/24 6.8x, combined 5.0x) bracket the 75+ effect at 4-7x; quote "4 to 7 times" if challenged
+- **Confidence:** high on direction; med on the exact multiple (ranges 4.3-6.8x across specifications because diagnosis absorbs part of the age effect)
+
 ## C. Limits and what would change our answer (both)
 
 (append below this line)
