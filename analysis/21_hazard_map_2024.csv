@@ -1,0 +1,85 @@
+product_group,age_group,est_visits,est_admissions,est_deaths,n_rows,adm_rate_%
+Bathroom,0-4,28624.0,108.1,137.9,230.0,0.4
+Bathroom,5-14,26245.4,631.7,32.9,184.0,2.4
+Bathroom,15-24,36126.7,1609.3,0.0,171.0,4.5
+Bathroom,25-44,92533.9,8198.1,0.0,380.0,8.9
+Bathroom,45-64,139694.9,27916.6,137.9,574.0,20.0
+Bathroom,65+,283376.2,94835.0,1353.1,1120.0,33.5
+Bikes & micromobility,0-4,26855.1,329.9,0.0,192.0,1.2
+Bikes & micromobility,5-14,176636.3,7259.4,254.7,1160.0,4.1
+Bikes & micromobility,15-24,163906.4,9795.2,137.9,757.0,6.0
+Bikes & micromobility,25-44,264036.5,28080.2,137.9,1138.0,10.6
+Bikes & micromobility,45-64,162761.1,26891.7,250.9,702.0,16.5
+Bikes & micromobility,65+,71046.5,16041.1,0.0,284.0,22.6
+Clothing & personal items,0-4,44827.9,325.2,0.0,365.0,0.7
+Clothing & personal items,5-14,56330.3,633.9,0.0,420.0,1.1
+Clothing & personal items,15-24,81902.0,947.8,0.0,367.0,1.2
+Clothing & personal items,25-44,150122.9,6267.2,0.0,615.0,4.2
+Clothing & personal items,45-64,126635.5,10910.8,0.0,517.0,8.6
+Clothing & personal items,65+,177714.4,34282.7,0.0,697.0,19.3
+Fitness & recreation,0-4,129440.8,4367.7,254.7,976.0,3.4
+Fitness & recreation,5-14,515935.9,11948.8,0.0,3413.0,2.3
+Fitness & recreation,15-24,293363.8,8796.1,0.0,1340.0,3.0
+Fitness & recreation,25-44,307855.6,12120.2,0.0,1251.0,3.9
+Fitness & recreation,45-64,210957.5,17959.2,0.0,848.0,8.5
+Fitness & recreation,65+,158413.6,29831.6,536.9,592.0,18.8
+"Floors, stairs & building parts",0-4,268253.6,4407.1,0.0,2084.0,1.6
+"Floors, stairs & building parts",5-14,259106.1,2954.8,254.7,1930.0,1.1
+"Floors, stairs & building parts",15-24,333789.3,11083.9,0.0,1554.0,3.3
+"Floors, stairs & building parts",25-44,617491.7,35068.6,413.8,2558.0,5.7
+"Floors, stairs & building parts",45-64,714363.6,99162.8,392.6,2901.0,13.9
+"Floors, stairs & building parts",65+,1416760.9,418702.8,3180.9,5534.0,29.6
+Furniture,0-4,451560.5,5443.9,602.7,3381.0,1.2
+Furniture,5-14,205553.2,2463.8,0.0,1460.0,1.2
+Furniture,15-24,121818.3,2851.7,0.0,533.0,2.3
+Furniture,25-44,270827.2,14113.7,254.7,1119.0,5.2
+Furniture,45-64,391783.6,52849.1,0.0,1596.0,13.5
+Furniture,65+,1060526.3,318894.3,812.8,4246.0,30.1
+Household items & appliances,0-4,118694.5,4210.1,32.9,844.0,3.5
+Household items & appliances,5-14,111658.8,4475.8,0.0,747.0,4.0
+Household items & appliances,15-24,76971.4,2179.6,0.0,378.0,2.8
+Household items & appliances,25-44,177730.3,7987.1,0.0,678.0,4.5
+Household items & appliances,45-64,192540.4,19539.3,420.2,728.0,10.1
+Household items & appliances,65+,212208.1,34542.3,530.5,837.0,16.3
+Kitchen & cooking,0-4,63516.2,1563.2,0.0,459.0,2.5
+Kitchen & cooking,5-14,85400.9,906.5,0.0,548.0,1.1
+Kitchen & cooking,15-24,163121.4,1711.0,0.0,667.0,1.0
+Kitchen & cooking,25-44,331938.3,7659.6,0.0,1322.0,2.3
+Kitchen & cooking,45-64,241028.9,9031.2,137.9,905.0,3.7
+Kitchen & cooking,65+,171318.5,17293.4,0.0,641.0,10.1
+"Medicines, chemicals & poisons",0-4,77635.8,4995.8,0.0,540.0,6.4
+"Medicines, chemicals & poisons",5-14,17709.3,344.7,0.0,96.0,1.9
+"Medicines, chemicals & poisons",15-24,22765.0,530.5,0.0,93.0,2.3
+"Medicines, chemicals & poisons",25-44,39735.4,1526.2,0.0,161.0,3.8
+"Medicines, chemicals & poisons",45-64,32354.8,2410.7,0.0,138.0,7.5
+"Medicines, chemicals & poisons",65+,20622.4,1732.1,0.0,79.0,8.4
+Off-road & recreational vehicles,0-4,3821.2,70.5,0.0,22.0,1.8
+Off-road & recreational vehicles,5-14,53078.2,4070.4,0.0,274.0,7.7
+Off-road & recreational vehicles,15-24,56089.6,7844.2,0.0,227.0,14.0
+Off-road & recreational vehicles,25-44,64062.9,9334.6,522.3,221.0,14.6
+Off-road & recreational vehicles,45-64,33013.2,5620.6,0.0,119.0,17.0
+Off-road & recreational vehicles,65+,19154.0,7043.5,0.0,65.0,36.8
+Other,0-4,2432.4,292.3,0.0,27.0,12.0
+Other,5-14,12640.1,358.1,0.0,111.0,2.8
+Other,15-24,11141.4,0.0,0.0,51.0,0.0
+Other,25-44,14920.6,827.6,0.0,61.0,5.5
+Other,45-64,13822.2,254.7,0.0,57.0,1.8
+Other,65+,9683.0,530.5,0.0,41.0,5.5
+Team & ball sports,0-4,16070.4,98.7,0.0,113.0,0.6
+Team & ball sports,5-14,615821.8,5510.0,0.0,4158.0,0.9
+Team & ball sports,15-24,610870.8,11288.3,32.9,3235.0,1.8
+Team & ball sports,25-44,226225.7,6241.9,0.0,957.0,2.8
+Team & ball sports,45-64,78046.1,4703.1,282.3,304.0,6.0
+Team & ball sports,65+,64134.1,12527.8,0.0,241.0,19.5
+"Tools, yard & DIY",0-4,18629.5,386.3,0.0,135.0,2.1
+"Tools, yard & DIY",5-14,40868.4,763.3,0.0,229.0,1.9
+"Tools, yard & DIY",15-24,72339.4,1343.3,0.0,271.0,1.9
+"Tools, yard & DIY",25-44,251101.4,16369.6,0.0,922.0,6.5
+"Tools, yard & DIY",45-64,285339.8,23192.6,0.0,996.0,8.1
+"Tools, yard & DIY",65+,260782.4,35691.5,420.2,894.0,13.7
+"Toys, babies & kids' products",0-4,139369.4,2472.4,0.0,1026.0,1.8
+"Toys, babies & kids' products",5-14,46510.8,449.8,0.0,299.0,1.0
+"Toys, babies & kids' products",15-24,9917.8,0.0,0.0,56.0,0.0
+"Toys, babies & kids' products",25-44,20041.4,1067.4,0.0,84.0,5.3
+"Toys, babies & kids' products",45-64,14339.7,957.1,0.0,52.0,6.7
+"Toys, babies & kids' products",65+,8686.1,2030.6,0.0,31.0,23.4
