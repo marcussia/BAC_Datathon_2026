@@ -1,0 +1,253 @@
+
+======== CLAIM 1: 18% surge. rows vs est, 2023 -> 2024 ========
+       rows          est  mean_w  rows_chg_%  est_chg_%  mean_w_chg_%
+year                                                                 
+2005  72074  12611768.61  174.98         NaN        NaN           NaN
+2014  73498  13842139.74  188.33        1.98       9.76          7.63
+2023  67653  12739754.64  188.31       -7.95      -7.96         -0.01
+2024  72334  15068366.28  208.32        6.92      18.28         10.62
+
+======== by hospital_type 2023 vs 2024 ========
+                rows               est            mean_w        rows_chg_% est_chg_% mean_w_chg_%
+year            2023   2024       2023       2024   2023   2024                                  
+hospital_type                                                                                    
+Children's     12593  15273   479098.2   529036.9   38.0   34.6       21.3      10.4         -9.0
+Large          10843  13567  3036347.8  3454874.5  280.0  254.7       25.1      13.8         -9.1
+Medium          7929  11057  3222848.6  3038368.7  406.5  274.8       39.5      -5.7        -32.4
+Small          10169   9033  3793419.0  4817855.4  373.0  533.4      -11.2      27.0         43.0
+Very large     26119  23404  2208041.1  3228230.7   84.5  137.9      -10.4      46.2         63.2
+
+======== counterfactual: 2024 rows x 2023 mean weight per hospital type ========
+2023 est 12,739,755 | 2024 actual 15,068,366 (+18.3%) | 2024 at 2023 weights 14,222,639 (+11.6%)
+
+======== CLAIM 2: e-bikes. Products with power-assist / electric / moped wording, by year (rows | est) ========
+year                                                        2005  2014  2023  2024
+product                                                                           
+Christmas decorations (nonelectric)                           30    30    30    40
+Clocks, electric or battery operated                           2     2     0     0
+Cords, electrical, other or not specified                     38    54    24    50
+Electric baseboard heaters                                     7     5     3     4
+Electric blankets or sheets                                    1     0     1     1
+Electric blenders                                             11    52    40    51
+Electric brooms                                                1     0     1     0
+Electric can openers                                           0     0     0     1
+Electric chandeliers or other attached light fixtures         22    17     8     9
+Electric clothes dryers without washers                        3     3     1     0
+Electric coffee makers or teapots                              0     1     2     2
+Electric combs                                                 0     0     1     0
+Electric corn poppers                                          0     1     0     1
+Electric counter-top ovens, broilers or toaster ovens          0     3     5     1
+Electric deep fryers                                           5    11     3     1
+Electric fireplaces, factory built                             2     0     0     1
+Electric frying pans and skillets                              2     2     4     2
+Electric griddles                                              0     1     2     2
+Electric grills                                                1     2     0     0
+Electric heaters, not elsewhere classified                     4     4     5     5
+Electric heating pads                                         12    11    16    10
+Electric holiday decorations (excl. Christmas tree lights)     5     8    10     8
+Electric kettles or hot pots                                   0     3     1     4
+Electric lighting equipment, not specified                     3    15     9     7
+Electric mixers                                                5     6     2     2
+Electric motors (separate)                                     1     1     1     0
+Electric or battery-powered knives                             4     1     2     1
+Electric outlets or receptacles                               22    21    15    17
+Electric power-assisted pedal bicycles                         0     0     0   243
+Electric ranges or ovens (excl. counter-top ovens)            11    13    16     9
+Electric razors or shavers                                     4     4     1     3
+Electric scissors                                              1     0     0     0
+Electric shoe polishers                                        0     1     0     0
+Electric soldering equipment                                   0     0     1     0
+Electric toy racing cars or accessories                        2     0     0     0
+Electric waffle irons                                          3     0     1     2
+Electric water heaters                                         1     1     0     0
+Electric wire or wiring systems (excl. panelboards recept)    11    14    15    18
+Electrical testing equipment                                   1     0     0     0
+Floor lamps or table lamps, electric (excl. halogen)          33    46    23    18
+Heating or cooling comfort packs (nonelectric)                 2     0     4     4
+Metal cookware (nonelectric)                                  16    10    13    30
+Mopeds or power-assisted cycles                               44    69   395     0
+Musical instruments, electric or battery operated              1     5     2     3
+Nonelectric blankets                                           9    22     7    14
+Nonelectric can openers                                        1     0     0     0
+Nonelectric razors or shavers                                 87   171   129   142
+Nonelectric toothbrushes                                       9     0     0     0
+Nonmetal cookware (nonelectric)                               10     6     5     7
+Other electric lighting equipment                              1     4     5     5
+Outdoor electric lighting equipment                            1     3     3     3
+Portable electric heaters                                      1     5     5     9
+Power-assisted cycles, not elsewhere classified                0     0     0   203
+Scales, electric/battery operated (excl. ud. baby scales)      1     1     1     1
+year                                                           2005     2014     2023     2024
+product                                                                                       
+Christmas decorations (nonelectric)                          4418.0   6027.0   6034.0   9336.0
+Clocks, electric or battery operated                          375.0    617.0      0.0      0.0
+Cords, electrical, other or not specified                    7927.0  12418.0   5281.0  12643.0
+Electric baseboard heaters                                   1589.0    494.0    566.0    809.0
+Electric blankets or sheets                                    78.0      0.0     83.0    540.0
+Electric blenders                                            1683.0  10235.0   7275.0  10904.0
+Electric brooms                                               334.0      0.0     79.0      0.0
+Electric can openers                                            0.0      0.0      0.0     33.0
+Electric chandeliers or other attached light fixtures        3924.0   3140.0   1635.0   1386.0
+Electric clothes dryers without washers                       628.0    355.0    399.0      0.0
+Electric coffee makers or teapots                               0.0     29.0    422.0    678.0
+Electric combs                                                  0.0      0.0     38.0      0.0
+Electric corn poppers                                           0.0     78.0      0.0    138.0
+Electric counter-top ovens, broilers or toaster ovens           0.0   1152.0   1843.0    138.0
+Electric deep fryers                                          610.0   2468.0    435.0     38.0
+Electric fireplaces, factory built                             62.0      0.0      0.0    138.0
+Electric frying pans and skillets                             641.0    157.0   1246.0    393.0
+Electric griddles                                               0.0     29.0    437.0    578.0
+Electric grills                                               381.0    483.0      0.0      0.0
+Electric heaters, not elsewhere classified                    535.0    577.0    601.0   1209.0
+Electric heating pads                                        2789.0   2550.0   3476.0   2974.0
+Electric holiday decorations (excl. Christmas tree lights)    874.0   1782.0   2310.0   1977.0
+Electric kettles or hot pots                                    0.0    221.0     79.0    668.0
+Electric lighting equipment, not specified                    184.0   3144.0   1255.0   1828.0
+Electric mixers                                              1305.0    931.0    489.0    389.0
+Electric motors (separate)                                    334.0    499.0    399.0      0.0
+Electric or battery-powered knives                            574.0     78.0    398.0    540.0
+Electric outlets or receptacles                              3441.0   2840.0   2320.0   3663.0
+Electric power-assisted pedal bicycles                          0.0      0.0      0.0  55999.0
+Electric ranges or ovens (excl. counter-top ovens)           2332.0   2976.0   2404.0   1900.0
+Electric razors or shavers                                   1188.0   1187.0     83.0    658.0
+Electric scissors                                              78.0      0.0      0.0      0.0
+Electric shoe polishers                                         0.0     72.0      0.0      0.0
+Electric soldering equipment                                    0.0      0.0    399.0      0.0
+Electric toy racing cars or accessories                       411.0      0.0      0.0      0.0
+Electric waffle irons                                         136.0      0.0    399.0    678.0
+Electric water heaters                                        341.0     72.0      0.0      0.0
+Electric wire or wiring systems (excl. panelboards recept)   2196.0   2748.0   2890.0   4561.0
+Electrical testing equipment                                   78.0      0.0      0.0      0.0
+Floor lamps or table lamps, electric (excl. halogen)         3582.0   8442.0   4911.0   4512.0
+Heating or cooling comfort packs (nonelectric)                377.0      0.0    675.0    948.0
+Metal cookware (nonelectric)                                 1645.0   2274.0   2703.0   6461.0
+Mopeds or power-assisted cycles                              8647.0  10817.0  81258.0      0.0
+Musical instruments, electric or battery operated              78.0   1132.0    315.0    839.0
+Nonelectric blankets                                         1874.0   5101.0   1362.0   2072.0
+Nonelectric can openers                                        78.0      0.0      0.0      0.0
+Nonelectric razors or shavers                               18356.0  38767.0  25567.0  27805.0
+Nonelectric toothbrushes                                      785.0      0.0      0.0      0.0
+Nonmetal cookware (nonelectric)                              2171.0   1177.0   1597.0   1652.0
+Other electric lighting equipment                              29.0   1222.0   1218.0   1494.0
+Outdoor electric lighting equipment                           416.0    716.0    489.0    933.0
+Portable electric heaters                                     341.0   1732.0    565.0   2015.0
+Power-assisted cycles, not elsewhere classified                 0.0      0.0      0.0  43755.0
+Scales, electric/battery operated (excl. ud. baby scales)      78.0     72.0     83.0    282.0
+
+======== narrative-defined e-bike rows by year ========
+      rows      est  share_of_year_est_%
+year                                    
+2005     4    213.0                0.002
+2014     6   1037.0                0.007
+2023   181  35556.0                0.279
+2024   247  55403.0                0.368
+
+======== what products are narrative e-bike rows coded as, 2023 vs 2024 ========
+year                                                      2023  2024
+product                                                             
+Electric power-assisted pedal bicycles                       0   230
+Power-assisted cycles, not elsewhere classified              0     8
+Bicycles and accessories (excl. mountain or all-terrain)     0     3
+Day wear                                                     0     1
+Fences or fence posts                                        0     1
+Handrails, railings or banisters                             0     1
+Minibikes, powered                                           4     1
+Scooters, powered                                            0     1
+Two-wheeled, powered, off-road vehicles                      1     1
+Mopeds or power-assisted cycles                            175     0
+Waste containers, trash baskets or refuse bins               1     0
+
+======== sample 2023 narrative e-bike matches (check for false positives) ========
+ - 73YOM - PT ARRIVES VIA EMS FOR EVALUATION FOLLOWING ELECTRIC BICYCLE VS VEHICLE ACCIDENT. PER EMS, PT WAS RIDI
+ - 20YOM PRESENTED TO ED C/O MVAE, PT STATED HE WAS RIDING HIS ELECTRIC BIKE AND A CITY BUS HIT HIM. C/O KNEE PAI
+ - 36YOM W/COMPLAINTS OF LEFT KNEE PAIN AFTER HE STS YEST AT APPRPOX 6PM HE WAS RIDING AN ELECTRIC BICYCLE WHEN H
+ - 50YOF WAS RIDING AN ELECTRIC BICYCLE WHEN A SLOW MOVING TRUCK BEGAN TO TURN AND STRUCK HER REAR TIRE FELL TO T
+ - 38YOM REPORTS RT KNEE PAIN ONSET 1HR PTA. PT STATES HE WAS RIDING AN ELECTRIC BIKE WHEN A DOG RAN OUT IN FRONT
+ - 33YOM WAS RIDING AN ELECTRIC BIKE WHEN HE WAS SIDESWIPED BY A CAR. DX: ACUTE PAIN OF RIGHT SHOULDER, ACUTE PAI
+ - 2YOM WITH HEAD INJURY AFTER ELECTRIC BIKE FALLING ONTO HIM. PT LEFT ED DX: HEAD INJURY
+ - 18YOM S/P UNHELMETED E-BICYCLE VS CAR PT REPORTS WAS ON A *** BIKE WHEN A CAR DRIVING FAST DOWN A STREET DROVE
+ - ^25YOM UNHELMETED MOTORBIKE VS E-BIKE DRIVER STRUCK A CAR DOOR THAT OPENED IN HIS PATH&FLIPPED OVER, +ABRASION
+ - 38YOM PRESENTS AFTER HE WAS RIDING AN E-BIKE WHEN HE WAS HIT BY A CAR. HAS ABRASION ON RIGHT LOWER LEG. DX: PA
+ - 59YOM PT RIDING ELECTRIC BIKE, LOST BALANCE & FELL, STRUCK FACE DX: LAC OF LIP #
+ - 17YOM PT RIDING MOTORIZED BIKE GOING 10MPH, WAS STRUCK BY A *** TRUCK & FLIPPED OVER. PT WORE NO HELMET DX: AB
+
+======== the 'quadrupled' candidates ========
+product 'Electric power-assisted pedal bicycles' rows/est by year: {2024: {'rows': 243, 'est': 55999.0}}
+product 'Mopeds or power-assisted cycles' by year: {2005: {'rows': 44, 'est': 8647.0}, 2014: {'rows': 69, 'est': 10817.0}, 2023: {'rows': 395, 'est': 81258.0}}
+PRODUCT FAMILY (2023 Mopeds/power-assisted -> 2024 Electric pedal + Power-assisted NEC):
+       rows      est
+year               
+2023   395  81258.0
+2024   446  99755.0 
+  growth est 1.23x
+
+======== sample narratives: 2023 'Mopeds or power-assisted cycles' / 2024 'Power-assisted cycles NEC' ========
+ 23- 63YOM PRESENTS WITH MOPED ACCIDENT IN WHICH PT FELL WHILE RIDING. LAC ON FACE AND STATES TOOTH FELL OUT. DX: M
+ 23- 62YOM PRESENTED AFTER A MOPED ACCIDENT ON THE HIGHWAY. THE PT WAS KNOCKED OFF OF THE MOPED DUE TO THE WIND SPE
+ 23- 23YOM STATE HE WAS ON A MOPED, AND FLIPPED FORAWARD WHEN HE HIT A CURB AND CAUGHT HIMSELF. DENIES HEAD TRAUMA 
+ 23- 26YOM WITH RIDING E BIKE AND HIT BY CAR WITH HIP PAIN DX: TRAUMATIC INJURY
+ 23- 53YOM WITH FALL OFF MOPED WITH FOREHEAD LAC AND ABRASION TO KNEE AND WRIST DX: MVA
+ 23- 6YOF FELL OFF HER ELECTRIC BIKE. DX WRIST PAIN AND BACK PAIN
+ 23- 14 YOM WAS RIDING AN ELECTRONIC BICYCLE WHEN HE TRIED TO DO A TRICK, SPECIFICALLY HE TRIED TO DO A WHEELIE. HE
+ 23- 27YOM PRESENTED AFTER A BIKE ACCIDENT. THE PT WAS RIDING AN E-BIKE WHEN A DEER RAN IN FRONT OF HIM. HE TRIED T
+ 24- 41YOM PRESENTS TO THE ED WITH LEFT ANKLE PAIN AND SWELLING FOLLOWING MOPED VS. CAR ACCIDENT. STATES THAT HE WA
+ 24- 16YOM REPORTS HE WAS A PASSENGER IN A CAR THAT WAS HIT BY A MOPED AND COMPLAINS OF HIP PAIN. DX CONTUSION, MVA
+ 24- 45YOM BIBEMS AS TRAUMA ALERT AFTER MOPED ACCIDENT. PT WAS NON-HELMETED OPERATOR OF MOPED AT APPROX 35MPH WHEN 
+ 24- 13YOM WAS RIDING A MOTORIZED BICYCLE (NO HELMET) WHEN HE WAS HIT IN THE RIGHT SIDE BY A TRUCK. DX: LACERATION 
+ 24- 40YOM PRESENTED TO ED C/O MVAE, PT STATED HE WAS STRUCK BY A CAR WHILE ON MOPED, REPORTED HE WAS T-BONED, HIT 
+ 24- 55YOF, WAS HIT BY A MOPED WHILE WALKING LAST TUESDAY, FELL ONTO HER KNEE RESULTING IN ABRASIONS, NO HEAD STRIK
+ 24- ^18YOM BIBEMS AS TRAUMA CODE AFTER MOPED VS TRUCK. PER EMS, PATIENT WAS ON MOPED, STRUCK BACK OF TRUCK. DISTAL
+ 24- 19YOM, WAS RIDING A MOPED AND FOUND DOWN ON THE GROUND HAS NO RECOLLECTION OF WHAT HAPPENED WITH HEMATOMA TO H
+
+======== growth 2024 vs 2014 (10 yrs) and 2024 vs 2005 ========
+est 2024/2014 +8.9% | rows -1.6% | est 2024/2005 +19.5%
+UNION (narrative OR 2024 e-bike product codes):
+       rows       est
+year                
+2023   401   81982.0
+2024   455  100958.0 
+  growth est 1.23x | rows 1.13x
+narrative-only growth: rows 1.36x | est 1.56x
+
+======== CLAIM 3: deadly. deaths and admissions ========
+2024 deaths: total rows 56 | e-bike (union def) rows 0
+all-years deaths, e-bike union def: 2 | all-years e-bike rows: 971
+e-bike death narratives:
+ - 32YOM- DOA- HELMETED MOPED DRIVER STRUCK BY CAR. PT HAD INTERNAL ABDOMINAL BLEEDING. DX: CRITICAL POLYTRAUMA
+ - 24YOM WITH BIBEMS AFTER RIDING MOPED AND GOT INTO MVA WITH TAXI. PT WAS DEAD ON ARRIVAL WITH ECCHYMOSIS ON TEMPLE AND FLANK AND LUMBAR AREA DX: MVA
+
+======== SEVERITY per visit, 2024 (weighted) ========
+                                            rows  est_visits  share_of_2024_%  admit_%  est_admissions  deaths_rows  deaths_est
+segment                                                                                                                        
+All 2024 visits                            72334  15068366.3            100.0     10.7       1612063.9           56     11526.2
+E-bike (narrative or product)                455    100957.7              0.7     15.1         15255.0            0         0.0
+All bikes & micromobility                   4235    865762.3              5.7     10.2         88397.4            4       781.4
+65+ all injuries                           15302   3934426.8             26.1     26.0       1023979.2           30      6834.4
+65+ falls (narrative FELL/FALL/SLIP/TRIP)  11893   3015381.9             20.0     29.3        882688.8           23      5346.8
+65+ floors/stairs/furniture/bathroom       10900   2760663.5             18.3     30.2        832432.1           23      5346.8
+65+ falls at home (known location)          6188   1589484.3             10.5     32.5        515860.3           15      3607.5
+
+======== 65+ falls trend (narrative def), est by year + share of all visits ========
+       rows        est       adm  share_%
+year                                     
+2005   5517  1134304.0  250333.0      9.0
+2014   7172  1593254.0  401401.0     12.0
+2023  10860  2481688.0  765413.0     19.0
+2024  11893  3015382.0  882689.0     20.0
+65+ share of all est by year %: {2005: 12.4, 2014: 16.0, 2023: 25.1, 2024: 26.1}
+
+======== 65+ share within each hospital type (est %), 2005 vs 2024 - is ageing just sample change? ========
+year           2005  2024
+hospital_type            
+Children's      0.0   0.0
+Large          11.3  24.8
+Medium         12.9  28.4
+Small          14.3  28.0
+Very large     12.1  26.7
+
+======== 2024 deaths by age group and by product (top) ========
+{'0-4': 7, '5-14': 3, '15-24': 2, '25-44': 6, '45-64': 8, '65+': 30}
+{'Floors or flooring materials': 8, 'Stairs or steps': 8, 'Beds or bedframes, other or not specified': 7, 'Bathtubs or showers': 6, 'General home or room involvement in fires': 5, 'Bicycles and accessories (excl. mountain or all-terrain)': 3}
+chart saved -> /Users/marcusmac/Downloads/bac-marcus/charts/a_surge_rows_vs_weight.png
+chart saved -> /Users/marcusmac/Downloads/bac-marcus/charts/a_ebike_like_for_like.png
+chart saved -> /Users/marcusmac/Downloads/bac-marcus/charts/a_admissions_ebike_vs_falls.png
