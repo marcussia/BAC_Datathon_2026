@@ -66,7 +66,11 @@ Running log. Newest at the bottom. Format per finding:
 
 ## B. Where the $10M goes (Germaine, branch germaine/recommendation, scripts analysis/2x_*.py, charts/b_*.png)
 
-(append findings below this line)
+### Candidate 1 (75+ falls at home) beats micromobility 7x on admissions and kids' sports on every column
+- **Number:** 2024 est injuries / admissions / admit % / deaths rows / 2005→2024 trend: (1) 75+ & floors/stairs/furniture/bathroom 1.80M / 588k / 32.7% / 15 / +139% (n = 7,085); (2) Bikes & micromobility group 866k / 88k / 10.2% / 4; (3) 5-14 team sports: see notebook s8 table. 5% / 10% reduction in (1) = 29,411 / 58,823 admissions avoided per year
+- **Chart:** none (table in notebook s8)
+- **So what:** $10M split proposed $5M hazard-removal kits, $3M GP/pharmacy reach, $1.5M measurement, $0.5M e-bike helmet/alcohol; no ban
+- **Confidence:** high on ranking; low on impact size (no cost or campaign-effect data). Germaine to refine
 
 
 ## C. Limits and what would change our answer (both)
