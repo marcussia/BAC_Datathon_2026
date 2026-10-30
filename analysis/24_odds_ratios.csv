@@ -1,0 +1,47 @@
+variable,level,odds_ratio_vs_ref
+age_band,0-4,0.35716438373731857
+age_band,15-24,0.5953964461515643
+age_band,25-44,1.0
+age_band,45-64,2.161018903577465
+age_band,5-14,0.350242399838263
+age_band,65-74,4.334158400180367
+age_band,75+,6.802575059010919
+sex,Female,1.0
+sex,Male,1.3517145295831443
+sex,Unknown,1.5404009232523594
+product_group,Bathroom,2.0292856332708786
+product_group,Bikes & micromobility,1.8727177569985602
+product_group,Clothing & personal items,1.1549020323178967
+product_group,Fitness & recreation,1.6221142152842936
+product_group,"Floors, stairs & building parts",1.8449268552912497
+product_group,Furniture,1.6116281249642832
+product_group,Household items & appliances,1.3096839719025077
+product_group,Kitchen & cooking,0.772543579821088
+product_group,"Medicines, chemicals & poisons",1.8991491530542872
+product_group,Off-road & recreational vehicles,4.571886504086529
+product_group,Other,1.2860313747322742
+product_group,Team & ball sports,1.0
+product_group,"Tools, yard & DIY",1.1406954764945296
+product_group,"Toys, babies & kids' products",1.328561144602343
+location,Farm/ranch,1.010476616401627
+location,Home,1.0
+location,Industrial,0.98304044019089
+location,Mobile home,1.1041808427654618
+location,Not recorded,0.7840383683458568
+location,Other public property,0.7510673098563223
+location,School/daycare,0.5688186464816667
+location,Sports/recreation place,0.8420013790122781
+location,Street/highway,1.6098321047076902
+alcohol,No,1.0
+alcohol,Yes,1.7544537727317793
+vehicle,e-bike,1.1101178057364727
+vehicle,none,1.0
+vehicle,pedal bicycle,0.9041543151058407
+vehicle,powered scooter,0.9985661188696919
+fall_f,fall,1.5885896143631535
+fall_f,no fall,1.0
+hospital_type,Children's,1.9059870530414302
+hospital_type,Large,1.091891506602756
+hospital_type,Medium,1.0485578588880118
+hospital_type,Small,0.4052871588402335
+hospital_type,Very large,1.0

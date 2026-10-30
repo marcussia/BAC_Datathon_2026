@@ -1,0 +1,4 @@
+model,roc_auc_2024,pr_auc_2024
+Germaine pre-diagnosis (analysis/24),0.816440658389571,0.32852497972577094
+Marcus feature set (incl. body part + diagnosis),0.8707804857877129,0.4753359043259361
+COMBINED (union of both),0.8764973234944264,0.5051421325793204

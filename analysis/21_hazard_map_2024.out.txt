@@ -1,0 +1,67 @@
+=== 2024 hazard map (est), top 15 cells by admissions ===
+                                           est_visits  est_admissions  est_deaths  n_rows  adm_rate_%
+product_group                   age_group                                                            
+Floors, stairs & building parts 65+         1416760.9        418702.8      3180.9  5534.0        29.6
+Furniture                       65+         1060526.3        318894.3       812.8  4246.0        30.1
+Floors, stairs & building parts 45-64        714363.6         99162.8       392.6  2901.0        13.9
+Bathroom                        65+          283376.2         94835.0      1353.1  1120.0        33.5
+Furniture                       45-64        391783.6         52849.1         0.0  1596.0        13.5
+Tools, yard & DIY               65+          260782.4         35691.5       420.2   894.0        13.7
+Floors, stairs & building parts 25-44        617491.7         35068.6       413.8  2558.0         5.7
+Household items & appliances    65+          212208.1         34542.3       530.5   837.0        16.3
+Clothing & personal items       65+          177714.4         34282.7         0.0   697.0        19.3
+Fitness & recreation            65+          158413.6         29831.6       536.9   592.0        18.8
+Bikes & micromobility           25-44        264036.5         28080.2       137.9  1138.0        10.6
+Bathroom                        45-64        139694.9         27916.6       137.9   574.0        20.0
+Bikes & micromobility           45-64        162761.1         26891.7       250.9   702.0        16.5
+Tools, yard & DIY               45-64        285339.8         23192.6         0.0   996.0         8.1
+Household items & appliances    45-64        192540.4         19539.3       420.2   728.0        10.1
+
+=== by product group (2024, est) ===
+                                   est_visits  est_admissions  est_deaths   n_rows  adm_rate_%
+product_group                                                                                
+Floors, stairs & building parts    3610274.5        571380.0      4242.0  16563.0        15.8
+Furniture                          2502069.0        396616.6      1670.2  12335.0        15.9
+Bathroom                            606601.2        133298.8      1661.9   2659.0        22.0
+Bikes & micromobility               865762.3         88397.4       781.4   4235.0        10.2
+Fitness & recreation               1615967.2         85023.7       791.6   8420.0         5.3
+Tools, yard & DIY                   929060.9         77746.6       420.2   3447.0         8.4
+Household items & appliances        889803.6         72934.3       983.6   4212.0         8.2
+Clothing & personal items           637532.9         53367.6         0.0   2981.0         8.4
+Team & ball sports                 1611169.0         40369.8       315.2   9008.0         2.5
+Kitchen & cooking                  1056579.0         38164.8       137.9   4543.0         3.6
+Off-road & recreational vehicles    229219.0         33983.7       522.3    928.0        14.8
+Medicines, chemicals & poisons      210822.6         11540.2         0.0   1107.0         5.5
+Toys, babies & kids' products       238865.2          6977.3         0.0   1548.0         2.9
+Other                                64639.7          2263.1         0.0    348.0         3.5
+
+=== by age group (2024, est) ===
+            est_visits  est_admissions  est_deaths   n_rows  adm_rate_%
+age_group                                                             
+0-4         1389731.2         29071.1      1028.2  10394.0         2.1
+5-14        2223495.5         42771.1       542.2  15029.0         1.9
+15-24       2054123.0         59980.9       170.8   9700.0         2.9
+25-44       2828624.1        154862.0      1328.7  11467.0         5.5
+45-64       2636681.5        301399.7      1621.8  10437.0        11.4
+65+         3934426.8       1023979.2      6834.4  15302.0        26.0
+
+65+ = 26.1% of visits, 63.5% of admissions, 59.3% of deaths (n = 15,302 rows)
+chart saved -> /Users/germaine/Library/Application Support/Claude/scratch-workspaces/afaf845b-c841-406a-b36b-d85c9b29a967/167d35b8-4f26-4347-bc59-94e6c52ae9c3/scratch-2026-10-30-dc0898/bac-datathon-r2/charts/b_adm_rate_by_group.png
+
+65+ admission rate 26.0% vs under-65 5.3% (4.9x); ratio range by group: 1.6x to 10.9x
+is65                               65+  under 65
+product_group                                   
+Floors, stairs & building parts   29.6       7.0
+Furniture                         30.1       5.4
+Bathroom                          33.5      11.9
+Bikes & micromobility             22.6       9.1
+Fitness & recreation              18.8       3.8
+Tools, yard & DIY                 13.7       6.3
+Household items & appliances      16.3       5.7
+Clothing & personal items         19.3       4.2
+Team & ball sports                19.5       1.8
+Kitchen & cooking                 10.1       2.4
+Off-road & recreational vehicles  36.8      12.8
+Medicines, chemicals & poisons     8.4       5.2
+Toys, babies & kids' products     23.4       2.1
+Other                              5.5       3.2

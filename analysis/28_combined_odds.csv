@@ -1,0 +1,19 @@
+variable,level,odds_ratio_vs_ref
+age_band,0-4,0.27761977943757915
+age_band,5-14,0.3425346228946983
+age_band,15-24,0.6566379758992296
+age_band,25-44,1.0
+age_band,45-64,1.8890592854602453
+age_band,65-74,3.3793312941657074
+age_band,75+,4.953714780343357
+alcohol,No,1.0
+alcohol,Yes,1.470346391404606
+fall_f,no fall,1.0
+fall_f,fall,1.2317587756668682
+sex,Female,1.0
+sex,Unknown,1.2470594847267813
+sex,Male,1.4113432851227863
+vehicle,pedal bicycle,0.8121873588417398
+vehicle,powered scooter,0.8816854428942269
+vehicle,e-bike,0.9657155614538744
+vehicle,none,1.0
