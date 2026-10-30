@@ -1,0 +1,16 @@
+under-65 visits 2005 11,044,270 -> 2024 11,132,655 = +0.8%
+65+ visits 2005 1,566,967 -> 2024 3,934,427 = +151.1%
+75+ visits 2005 1,048,851 -> 2024 2,347,014 = +123.8%
+75+ share of 2024 visits: 15.6% (1 in 6.4); rows 9,195 of 72,334 = 1 in 7.9
+65+ share of 2024 visits: 26.1%
+75+ share of ALL 2024 admissions: 43.3% (697,868 of 1,612,064)
+65+ share of ALL 2024 admissions: 63.5%
+75+ share of admissions from home-fall PRODUCTS (all ages): 54.6% (441,646 of 809,128)
+75+ share of admissions from home-fall products with location=Home: 54.1%
+75+ home-fall-product admissions 441,646 = 27.4% of ALL admissions
+e-bike admissions 2024 (narrative or code): 12,421
+75+ ALL admissions / e-bike admissions = 56x
+75+ home-fall-product admissions / e-bike = 36x
+65+ home-fall-product admissions / e-bike = 50x
+65+ all admissions / e-bike = 82x
+(Marcus union def) e-bike admissions 18,853; 75+ all adm / that = 37x; 75+ home-fall / that = 23x

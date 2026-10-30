@@ -51,6 +51,18 @@ t = t.sort_values("p", ascending=False); t["cw"] = t.w.cumsum() / t.w.sum(); t["
 cap20 = t.loc[t.cw <= 0.2, "cy"].max()
 print(f"targeting the highest-risk 20% of 2024 visits captures {cap20:.0%} of admissions ({cap20/0.2:.1f}x random)")
 
+# ---- baselines: how much of the AUC is age alone? does dropping hospital_type (admission practice) change the ranking? ----
+def fit_auc(cols):
+    Xb = X[cols]; mb = HistGradientBoostingClassifier(max_iter=300, learning_rate=0.06, min_samples_leaf=100,
+                                                       categorical_features="from_dtype", random_state=0)
+    mb.fit(Xb[train], y[train], sample_weight=w[train]); pb = mb.predict_proba(Xb[test])[:, 1]
+    return roc_auc_score(y[test], pb, sample_weight=w[test]), average_precision_score(y[test], pb, sample_weight=w[test])
+bl = pd.DataFrame({"features": ["age only", "age + fall flag", "all except hospital_type", "all except age", "all (main model)"],
+                   "roc_auc": 0.0, "pr_auc": 0.0})
+for i, cols in enumerate([["age_f"], ["age_f", "fall"], [c for c in cat + num if c != "hospital_type"], [c for c in cat + num if c not in ("age_f", "age_missing")], cat + num]):
+    bl.loc[i, ["roc_auc", "pr_auc"]] = fit_auc(cols)
+print("\nbaselines (2024, weighted):"); print(bl.round(3).to_string(index=False)); bl.to_csv("analysis/24_baselines.csv", index=False)
+
 rng = np.random.default_rng(0); idx = rng.choice(np.where(test)[0], 20000, replace=False)
 Xs, ys, ws = X.iloc[idx], y[idx], w[idx]; auc0 = roc_auc_score(ys, hgb.predict_proba(Xs)[:, 1], sample_weight=ws)
 imp = {}
