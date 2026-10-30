@@ -1,0 +1,41 @@
+=== 65+ home-fall products, 2024 ===
+est_visits        1926712.3
+est_admissions     622473.0
+est_deaths           4820.0
+n_rows               7648.0
+adm_rate_%             32.3
+share of ALL 2024 visits 12.8% | of ALL admissions 38.6% | of ALL deaths 41.8% (deaths n = 20 rows)
+narrative mentions FELL/FALL/SLIP/TRIP in 91% of these rows
+
+by product (2024):
+               est_visits  est_admissions  est_deaths  n_rows  adm_rate_%
+fall_product                                                            
+Floors          801717.0        285792.9       806.4  3065.0        35.6
+Beds            484047.4        153065.0       812.8  1977.0        31.6
+Stairs          378878.2         94002.0      1847.8  1557.0        24.8
+Bathroom        262069.7         89613.1      1353.1  1049.0        34.2
+
+=== trend ===
+       est_visits  est_admissions  est_deaths  n_rows  adm_rate_%  all_injuries_est  share_of_all_%
+year                                                                                              
+2005    740668.4        192376.7      1029.1  3598.0        26.0      1.261177e+07             5.9
+2014   1108892.1        320253.6       707.7  5059.0        28.9      1.384214e+07             8.0
+2023   1601268.5        541076.8      2574.9  7099.0        33.8      1.273975e+07            12.6
+2024   1926712.3        622473.0      4820.0  7648.0        32.3      1.506837e+07            12.8
+visits x2.6, admissions x3.2 (2005 -> 2024) vs all injuries x1.19
+
+75+ only:
+       est_visits  est_admissions  est_deaths  n_rows  adm_rate_%
+year                                                            
+2005    541342.1        157583.5       155.1  2588.0        29.1
+2014    780834.4        244766.2       299.8  3521.0        31.3
+2023   1060111.7        387692.5      2120.3  4630.0        36.6
+2024   1280118.5        441646.3      2675.4  5059.0        34.5
+
+location 2024: Home = 55.4% of all (Not recorded = 22.9%) | Home = 71.8% of KNOWN location (n known = 5,779 of 7,648); next: Other public property 27.7% (nursing homes etc.)
+
+top body parts (est %): {'Head': 27.4, 'Lower trunk': 15.9, 'Upper trunk': 9.1, 'Not stated/unknown': 8.7, 'Face': 7.5, 'Knee': 5.6}
+top diagnoses (est %): {'Other/not stated': 27.3, 'Fracture': 22.2, 'Internal organ injury': 19.6, 'Contusion/abrasion': 12.9, 'Laceration': 7.2, 'Strain/sprain': 3.5}
+admission rate by body part: {'Upper leg': 51.2, 'Lower trunk': 46.6, 'Head': 26.6, 'Upper trunk': 34.2, 'Face': 20.4, 'Wrist': 13.5}
+HIP in narrative: 12.9% of rows; female share 61.7%; median age 79
+chart saved -> /Users/germaine/Library/Application Support/Claude/scratch-workspaces/afaf845b-c841-406a-b36b-d85c9b29a967/167d35b8-4f26-4347-bc59-94e6c52ae9c3/scratch-2026-10-30-dc0898/bac-datathon-r2/charts/b_65_homefall_trend.png
