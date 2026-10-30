@@ -1,0 +1,60 @@
+=== Gradient boosting: train 2005-2023 (n = 213,225), test 2024 (n = 72,334), weighted ===
+2024 weighted admitted rate 0.107 | ROC-AUC 0.817 | PR-AUC 0.329 (random = 0.107) | Brier 0.0813
+calibration by predicted-risk decile (pred vs observed):
+      pred    obs  n_rows
+dec                      
+0    0.009  0.011  7234.0
+1    0.018  0.022  7255.0
+2    0.023  0.021  7228.0
+3    0.029  0.024  7218.0
+4    0.040  0.041  7232.0
+5    0.056  0.062  7233.0
+6    0.084  0.085  7234.0
+7    0.150  0.142  7233.0
+8    0.251  0.257  7234.0
+9    0.375  0.383  7233.0
+targeting the highest-risk 20% of 2024 visits captures 60% of admissions (3.0x random)
+permutation importance (AUC drop when shuffled):
+age_f              0.2551
+hospital_type      0.0200
+product_group      0.0158
+fall               0.0139
+location           0.0028
+alcohol            0.0027
+sex                0.0021
+pedal_bike         0.0001
+age_missing        0.0000
+ebike              0.0000
+powered_scooter    0.0000
+year               0.0000
+month             -0.0004
+
+=== Logistic regression 2023-24 (n = 139,987, weighted), 2024 ROC-AUC 0.815 ===
+variable           level  odds_ratio_vs_ref
+age_band            5-14               0.35
+age_band             0-4               0.36
+age_band           15-24               0.60
+age_band           25-44               1.00
+age_band           45-64               2.16
+age_band           65-74               4.33
+age_band             75+               6.80
+ alcohol              No               1.00
+ alcohol             Yes               1.75
+  fall_f         no fall               1.00
+  fall_f            fall               1.59
+     sex          Female               1.00
+     sex            Male               1.35
+     sex         Unknown               1.54
+ vehicle   pedal bicycle               0.90
+ vehicle powered scooter               1.00
+ vehicle            none               1.00
+ vehicle          e-bike               1.11
+chart saved -> /Users/germaine/Library/Application Support/Claude/scratch-workspaces/afaf845b-c841-406a-b36b-d85c9b29a967/167d35b8-4f26-4347-bc59-94e6c52ae9c3/scratch-2026-10-30-dc0898/bac-datathon-r2/charts/b_severity_odds.png
+
+=== 2024: model-expected vs observed admissions by hazard (model trained without 2024) ===
+                est_visits  model_expected_adm  observed_adm  n_rows  share_expected_%
+hazard                                                                                
+E-bike             90367.0             11809.0       12421.0     411               1.0
+Fall, 65+        3018850.0            862870.0      881728.0   11903              54.0
+Fall, under 65   4638170.0            322854.0      323872.0   24852              20.0
+Other            7320980.0            396322.0      394043.0   35168              25.0
