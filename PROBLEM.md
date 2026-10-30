@@ -11,7 +11,7 @@ Our team are the regulator's analysts. Using the NEISS data:
 Should the regulator spend its one $10M 2026 campaign on e-bikes, as the headline implies, or on the hazard the data says actually costs the most ER visits, admissions and deaths?
 
 ## Round logistics
-- 70 minutes from clock start. Stop-work time: [FILL IN]. Submit within 5 min of cut-off to abc-bac-training@e.ntu.edu.sg. No changes after submission.
+- 70 minutes from clock start. Stop-work time: 7:55 pm (submit by 8:00 pm). Submit within 5 min of cut-off to abc-bac-training@e.ntu.edu.sg. No changes after submission.
 - Presentations start 15 min after stop-work: 5 min presentation + 2 min Q&A.
 - Deliverables: slide deck (MAX 5 SLIDES) with recommendations, plus the code used.
 
