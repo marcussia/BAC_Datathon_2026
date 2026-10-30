@@ -1,0 +1,13 @@
+65+ home-fall products, est admissions: {2005: 192377.0, 2014: 320254.0, 2023: 541077.0, 2024: 622473.0} | n rows: {2005: 3598, 2014: 5059, 2023: 7099, 2024: 7648}
+fit 2005-2023 (excludes 2024 re-weight): admissions grow 5.9%/yr -> 2026 = 641,268; visits grow 4.4%/yr -> 2026 = 1,831,833
+fit 2005-2024: admissions grow 6.2%/yr -> 2026 = 672,052; visits grow 4.8%/yr -> 2026 = 1,974,458
+
+e-bike 2024: 90,367 visits, 12,421 admissions (n = 411)
+                           scenario  growth  ebike_adm_2026  65plus_fall_adm_2026_low  ratio_low
+   1.2x/yr (like-for-like 2023->24)     1.2         17886.0                  641268.0       36.0
+1.5x/yr (narrative growth 2023->24)     1.5         27947.0                  641268.0       23.0
+                              2x/yr     2.0         49683.0                  641268.0       13.0
+   4x/yr (the headline, every year)     4.0        198733.0                  641268.0        3.0
+
+Even at 4x a year, e-bikes reach 198,733 admissions in 2026 vs 641,268-672,052 for 65+ home falls (3x). At the like-for-like 1.2x, the gap is 36x.
+chart saved -> /Users/germaine/Library/Application Support/Claude/scratch-workspaces/afaf845b-c841-406a-b36b-d85c9b29a967/167d35b8-4f26-4347-bc59-94e6c52ae9c3/scratch-2026-10-30-dc0898/bac-datathon-r2/charts/b_projection_2026.png

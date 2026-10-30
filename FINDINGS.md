@@ -76,6 +76,18 @@ Running log. Newest at the bottom. Format per finding:
 - **So what:** safe wording: "Injuries to under-65s have been flat for 20 years (+1%); injuries to over-65s are up 151%. People 75+ are 1 in 6 ER patients but 43% of all hospital admissions, 56x the admissions caused by every e-bike injury combined." Do not say "43% of admissions from falls at home" (that figure is 55%), and do not say 47x (no definition gives it)
 - **Confidence:** high; the e-bike multiple depends on the e-bike definition, so state which one
 
+### 2026 outlook: 65+ home falls on trend to 641-672k admissions in the campaign year; e-bikes would need to quadruple EVERY year to reach 199k
+- **Number:** 65+ home-fall-product admissions (est) 192k (2005) -> 320k (2014) -> 541k (2023) -> 622k (2024); log-linear trend 5.9%/yr fitted on 2005-2023 (avoids the 2024 re-weighting) gives 641k in 2026, 6.2%/yr on all four years gives 672k; visits 1.83-1.97M. E-bike admissions 2024 = 12.4k (n = 411): at the like-for-like 1.2x/yr they reach 18k in 2026 (65+ falls 36x larger); at 1.5x 28k (23x); at 2x 50k (13x); at the headline's 4x every year 199k (still 3x smaller)
+- **Chart:** charts/b_projection_2026.png (table analysis/26_projection_2026.csv)
+- **So what:** the $10M is spent in 2026, and under any growth story the elderly-fall problem is still an order of magnitude larger that year. The e-bike ban would not change the 2026 hospital bed count
+- **Confidence:** med. Caveat: four data points, trend is indicative not a forecast; the 65+ range brackets the 2024 weighting uncertainty; e-bike scenarios are illustrative multipliers, not predictions
+
+### Which message: bathroom and bed transfers (230k admissions a year) plus "check dizziness": 15% of 65+ home falls start with dizziness or weakness and 51% of those are admitted
+- **Number:** 2023-24 narratives for 65+ home-fall products (n = 14,747; group admission rate 33.0%). Theme -> est admissions/yr, admitted %: dizzy/syncope/weakness 137k, 51% (n = 2,249); toilet/bathroom 122k, 36% (n = 2,832); getting out of/into bed 107k, 34% (n = 2,671); stairs 76k, 27%; found on floor / unwitnessed / could not get up 75k, 49% (n = 1,259); nursing home/assisted living 64k, 29%; rug/carpet/wet floor 36k, 27%; walker/cane 33k; at night 29k, 34%; dementia 21k, 42%; blood thinner 17k; footwear 3k
+- **Chart:** charts/b_message_themes.png (table analysis/27_message_keywords.csv)
+- **So what:** the campaign message is concrete: (1) make the two transfers safe, bed and toilet/shower (grab bars, raised seat, bed height, night light on the route); (2) "dizzy when you stand = see your doctor" (medication/blood-pressure review), because those falls are the ones that end in admission; (3) a fall alarm/check-in for people living alone, since unwitnessed falls admit at 49%. Rugs and footwear, the usual leaflet content, are a small share
+- **Confidence:** med. Caveat: keyword themes overlap and depend on nurse wording; 2005/2014 narratives are too short to compare; nursing-home rows show the target also includes care facilities, not just private homes
+
 ## C. Limits and what would change our answer (both)
 
 (append below this line)
