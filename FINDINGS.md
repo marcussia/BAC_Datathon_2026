@@ -33,3 +33,21 @@ Running log. Newest at the bottom. Format per finding:
 - **Chart:** charts/gains_chart.png, charts/top_drivers.png
 - **So what:** diagnosis + age + body part alone (all known at triage) sort out who will need a bed. Drivers: fractures 20.3% admitted (n = 44,904) vs sprains 0.6%; oldest age quartile 21.6% vs 2.7–5.0%; upper leg (hip) 29.3% (n = 3,470) vs finger 1.1%; Bathroom products 16.5% vs team sports 2.2%
 - **Confidence:** med. Caveat: hospital_type is driver #4 (Small/Children's admit ~4.5% vs ~10% elsewhere), which reflects hospital practice, not patient risk. Model is unweighted (rows, not national estimate). Leakage dropped: outcome, died, narrative. Accuracy is misleading here (baseline 91.8% by always saying "no")
+
+---
+# Round 2: headline fact-check and the $10M campaign
+
+## A. Headline fact-check (Marcus, branch marcus/headline-check, scripts analysis/1x_*.py, charts/a_*.png)
+
+(append findings below this line)
+
+
+## B. Where the $10M goes (Germaine, branch germaine/recommendation, scripts analysis/2x_*.py, charts/b_*.png)
+
+(append findings below this line)
+
+
+## C. Limits and what would change our answer (both)
+
+(append below this line)
+
