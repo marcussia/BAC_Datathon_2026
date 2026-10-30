@@ -1,0 +1,141 @@
+
+======== QUIRK 4: toys names by year (rows) ========
+year                            2005  2014  2023  2024
+product                                               
+Toys, not elsewhere classified   553    39    97   119
+Toys, not specified                0   270   267   288
+
+======== Products present in only some years: count by first year seen ========
+year
+(2005, 2014, 2023, 2024)    552
+(2014, 2023, 2024)           44
+(2005,)                      36
+(2005, 2014)                 21
+(2005, 2023, 2024)           19
+(2005, 2014, 2023)           15
+(2005, 2014, 2024)           15
+(2023, 2024)                 15
+(2005, 2023)                 13
+(2024,)                      13
+Name: count, dtype: int64
+new since 2023 (top by 2024 est):
+product
+Scooters, powered                                  181,673.3
+Scooters, unspecified                              160,344.6
+Electric power-assisted pedal bicycles              55,999.4
+Power-assisted cycles, not elsewhere classified     43,755.2
+Hoverboards and powered skateboards                 37,085.8
+Cribs, nonportable or not specified                 26,170.6
+Battery chargers/adapters                            5,298.7
+Fuel multi-purpose lighters, incl. micro-torches     1,943.1
+Brick, stone or masonry chimneys                     1,495.8
+Baby carriers (bicycle-mounted)                        764.3
+Name: weight, dtype: float64
+gone after 2014 (top by est):
+product
+Wheelchairs                            92,793.7
+Crutches, canes or walkers             68,378.4
+First aid equipment                    39,185.6
+Scooters / skateboards, powered        15,301.1
+Nonportable cribs                      12,960.8
+Eyeglasses                              8,982.2
+Decorative yard equipment               8,876.9
+Cigarettes, cigars, pipes or tobacco    8,819.1
+Name: weight, dtype: float64
+
+======== BIGGEST product changes 2005 -> 2024 (est, products present both years) ========
+UP:
+year                                                 2005        2014        2023        2024   x
+product                                                                                          
+Beds or bedframes, other or not specified       420,886.3   611,626.2   790,189.1   943,165.4 2.2
+Floors or flooring materials                    828,584.9 1,115,539.4 1,097,681.3 1,213,169.0 1.5
+Exercise (activity or apparel, without equip)   114,871.7   297,583.9   304,885.1   350,310.1 3.0
+Bathtubs or showers                             205,898.0   293,748.0   308,898.6   369,346.9 1.8
+Toilets                                          54,328.7    97,324.0   146,365.6   186,019.8 3.4
+Chairs, other or not specified                  266,166.9   316,484.9   314,834.8   388,791.7 1.5
+Stairs or steps                               1,076,293.9 1,133,051.2   974,920.1 1,192,569.3 1.1
+Footwear                                         82,568.9   146,360.4   149,911.4   193,342.3 2.3
+DOWN:
+year                                                              2005      2014      2023      2024   x
+product                                                                                                 
+Basketball, activity and related equipment                   499,133.9 508,452.6 306,628.2 374,165.2 0.7
+Football                                                     414,762.7 394,855.4 273,159.3 309,333.7 0.7
+Toys, not elsewhere classified                                89,635.3   5,433.3  11,796.6  17,056.2 0.2
+Bicycles and accessories (excl. mountain or all-terrain)     501,454.0 491,071.2 392,517.7 432,349.1 0.9
+House repair or construction materials, not elsewhere cla...  84,701.7   9,869.3  13,050.1  23,876.5 0.3
+Baseball                                                     154,870.4 132,392.6  83,324.7  94,772.1 0.6
+All terrain vehicles (four wheels/off road only)             114,272.5  73,777.2  45,958.6  57,053.9 0.5
+Nails, screws, carpet tacks or thumbtacks                    139,544.1 103,976.5  63,740.7  86,687.3 0.6
+
+======== Micromobility products by year (est) ========
+year                                                          2005      2014      2023      2024
+product                                                                                         
+Bicycles and accessories (excl. mountain or all-terrain) 501,454.0 491,071.2 392,517.7 432,349.1
+Scooters, powered                                              0.0       0.0  66,392.8 115,280.4
+Scooters, unspecified                                          0.0       0.0  66,711.7  93,632.9
+Skateboards, unpowered or unspecified                    119,361.0 118,428.8  63,483.7  69,807.2
+Electric power-assisted pedal bicycles                         0.0       0.0       0.0  55,999.4
+Power-assisted cycles, not elsewhere classified                0.0       0.0       0.0  43,755.2
+Mountain or all-terrain bicycles and accessories          11,898.5   7,567.0  21,499.5  24,699.8
+Hoverboards and powered skateboards                            0.0       0.0  23,156.2  13,929.5
+Scooters, unpowered                                       40,199.1  43,362.1   9,528.5   8,438.6
+Minibikes, powered                                         3,797.1   1,819.6   3,477.9   4,669.6
+
+======== TOP product by age group (est) ========
+0-4: Beds or bedframes, other or not spe 597k | Floors or flooring materials 376k | Tables (excl. baby changing, billia 290k
+5-14: Football 690k | Bicycles and accessories (excl. mou 597k | Basketball, activity and related eq 593k
+15-24: Basketball, activity and related eq 771k | Football 578k | Stairs or steps 519k
+25-44: Stairs or steps 1,157k | Knives, not elsewhere classified 473k | Floors or flooring materials 450k
+45-64: Stairs or steps 1,092k | Floors or flooring materials 759k | Beds or bedframes, other or not spe 389k
+65+: Floors or flooring materials 2,211k | Beds or bedframes, other or not spe 1,223k | Stairs or steps 1,022k
+
+======== Infants (<2y, months code): top products ========
+product
+Beds or bedframes, other or not specified               326,856.1
+Floors or flooring materials                            188,755.2
+Stairs or steps                                         130,280.8
+Sofas, couches, davenports, divans or studio couches    111,604.6
+Tables (excl. baby changing, billiard or pool tables)   107,212.6
+Name: weight, dtype: float64
+
+======== TOP product by sex (est) ========
+Female {'Stairs or steps': 2674403.0, 'Floors or flooring materials': 2594537.0, 'Beds or bedframes, other or not specified': 1553105.0, 'Chairs, other or not specified': 734986.0}
+Male {'Stairs or steps': 1701235.0, 'Floors or flooring materials': 1658554.0, 'Basketball, activity and related equipment': 1356728.0, 'Bicycles and accessories (excl. mountain or all-terrain)': 1344740.0}
+
+======== Top diagnosis per body part head/finger ========
+Head {'Internal organ injury': 4852139.0, 'Laceration': 1214729.0, 'Concussion': 926486.0}
+Finger {'Laceration': 2391638.0, 'Fracture': 694283.0, 'Strain/sprain': 335932.0}
+Face {'Laceration': 2331800.0, 'Contusion/abrasion': 1031514.0, 'Fracture': 385997.0}
+
+======== NARRATIVE keywords: rows (naive vs careful) by year ========
+year                        2005  2014  2023  2024
+TRAMPOLINE                   660   601   734   817
+HELMET (naive)               775   866  1286  1562
+NO/WITHOUT HELMET            278   247   259   319
+CAR (naive)                 2862  3525  3896  4367
+CAR (word)                   701   818  1167  1278
+ETOH                         273   498   532   348
+LOC                          974  1844  1989  2337
+DOG                          348   585   765   928
+PICKLEBALL                     0     2    76    93
+E-SCOOTER/ELECTRIC SCOOTER    11     8   245   370
+NURSING HOME                 561   475   637   674
+
+ETOH in narrative vs alcohol_involved=1 (2023-24):
+alcohol_involved     0.0   1.0     All
+narrative                             
+False             137350  1757  139107
+True                  37   843     880
+All               137387  2600  139987
+
+Sample 'CAR' naive matches that aren't the word CAR:
+0
+CARRYING      1620
+CART          1463
+CARPETED      1425
+CARPET        1200
+DAYCARE        844
+METACARPAL     663
+CARE           622
+CARDIAC        226
+Name: count, dtype: int64

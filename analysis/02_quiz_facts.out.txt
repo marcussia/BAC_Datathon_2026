@@ -1,0 +1,316 @@
+
+======== SIZE BY YEAR ========
+       rows          est  w_min  w_max  w_mean      d_min      d_max
+year                                                                
+2005  72074 12,611,768.6   29.1  415.8   175.0 2005-01-01 2005-12-31
+2014  73498 13,842,139.7   28.6  560.8   188.3 2014-01-01 2014-12-31
+2023  67653 12,739,754.6   38.0  448.7   188.3 2023-01-01 2023-12-31
+2024  72334 15,068,366.3   32.9  540.3   208.3 2024-01-01 2024-12-31
+TOTAL rows 285559 | est 54,262,029
+distinct products: 783 | groups: 14
+products per year: {2005: 683, 2014: 670, 2023: 671, 2024: 677}
+
+======== PRODUCT_GROUP (all years) ========
+                                   rows          est  row_%  est_%  rank_rows  rank_est
+product_group                                                                          
+Floors, stairs & building parts   68412 13,281,055.0   24.0   24.5          1         1
+Furniture                         44547  8,242,251.5   15.6   15.2          2         2
+Team & ball sports                37856  6,460,391.3   13.3   11.9          3         3
+Fitness & recreation              31883  5,846,128.5   11.2   10.8          4         4
+Kitchen & cooking                 19503  3,972,982.8    6.8    7.3          5         5
+Tools, yard & DIY                 15316  3,574,411.4    5.4    6.6          8         6
+Household items & appliances      16474  3,139,571.2    5.8    5.8          6         7
+Bikes & micromobility             16175  2,981,464.4    5.7    5.5          7         8
+Clothing & personal items         10340  1,983,094.7    3.6    3.7          9         9
+Bathroom                           8711  1,813,933.6    3.1    3.3         10        10
+Off-road & recreational vehicles   3950    919,576.2    1.4    1.7         13        11
+Toys, babies & kids' products      5660    865,824.5    2.0    1.6         11        12
+Medicines, chemicals & poisons     4763    828,646.2    1.7    1.5         12        13
+Other                              1969    352,698.1    0.7    0.6         14        14
+
+======== PRODUCT (all years) ========
+                                                     rows         est  row_%  est_%  rank_rows  rank_est
+product                                                                                                 
+Stairs or steps                                     22739 4,376,834.5    8.0    8.1          1         1
+Floors or flooring materials                        20740 4,254,974.5    7.3    7.8          2         2
+Beds or bedframes, other or not specified           14690 2,765,867.1    5.1    5.1          3         3
+Bicycles and accessories (excl. mountain or all...   9930 1,817,392.0    3.5    3.3          5         4
+Basketball, activity and related equipment          10197 1,688,379.8    3.6    3.1          4         5
+Football                                             8650 1,392,111.1    3.0    2.6          6         6
+Chairs, other or not specified                       6794 1,286,278.2    2.4    2.4          7         7
+Knives, not elsewhere classified                     5968 1,285,214.7    2.1    2.4          9         8
+Bathtubs or showers                                  5761 1,177,891.4    2.0    2.2         11         9
+Ceilings and walls (interior part of completed ...   6031 1,115,449.0    2.1    2.1          8        10
+Exercise (activity or apparel, without equip)        5159 1,067,650.8    1.8    2.0         14        11
+Doors, other or not specified                        5832 1,013,669.9    2.0    1.9         10        12
+Tables (excl. baby changing, billiard or pool t...   5670   965,074.9    2.0    1.8         12        13
+Soccer                                               5662   879,671.3    2.0    1.6         13        14
+Sofas, couches, davenports, divans or studio co...   4246   702,267.1    1.5    1.3         15        15
+
+======== BODY_PART (all years) ========
+              rows         est  row_%  est_%  rank_rows  rank_est
+body_part                                                        
+Head         46973 8,291,665.6   16.4   15.3          1         1
+Lower trunk  23147 4,874,082.1    8.1    9.0          4         2
+Finger       24409 4,820,857.1    8.5    8.9          3         3
+Face         25411 4,468,385.5    8.9    8.2          2         4
+Upper trunk  14950 3,196,000.5    5.2    5.9          6         5
+Ankle        15828 3,027,692.7    5.5    5.6          5         6
+Knee         14561 2,898,155.3    5.1    5.3          7         7
+Hand         12992 2,668,638.2    4.5    4.9          8         8
+Foot         12057 2,382,340.4    4.2    4.4          9         9
+Shoulder     11360 2,326,777.7    4.0    4.3         10        10
+
+======== DIAGNOSIS (all years) ========
+                        rows         est  row_%  est_%  rank_rows  rank_est
+diagnosis                                                                  
+Laceration             50578 9,616,282.8   17.7   17.7          1         1
+Other/not stated       44492 8,918,491.7   15.6   16.4          3         2
+Fracture               44906 8,244,192.9   15.7   15.2          2         3
+Contusion/abrasion     38186 7,729,014.6   13.4   14.2          4         4
+Strain/sprain          35717 7,028,478.4   12.5   13.0          5         5
+Internal organ injury  29128 4,987,400.7   10.2    9.2          6         6
+Foreign body            5702 1,062,530.2    2.0    2.0          7         7
+Concussion              5491   926,486.4    1.9    1.7          8         8
+Dislocation             4554   859,927.1    1.6    1.6          9         9
+Poisoning               3905   692,305.9    1.4    1.3         10        10
+
+======== LOCATION (all years) ========
+                           rows          est  row_%  est_%  rank_rows  rank_est
+location                                                                       
+Home                     119037 23,073,410.2   41.7   42.5          1         1
+Not recorded              87046 16,632,128.5   30.5   30.7          2         2
+Sports/recreation place   37854  6,598,501.8   13.3   12.2          3         3
+Other public property     19581  4,086,049.4    6.9    7.5          4         4
+School/daycare            14120  2,291,884.2    4.9    4.2          5         5
+Street/highway             7676  1,515,416.8    2.7    2.8          6         6
+Farm/ranch                  153     41,216.7    0.1    0.1          7         7
+Mobile home                  66     17,786.0    0.0    0.0          8         8
+Industrial                   26      5,635.7    0.0    0.0          9         9
+
+======== OUTCOME (all years) ========
+                           rows          est  row_%  est_%  rank_rows  rank_est
+outcome                                                                        
+Treated and released     252834 47,882,243.1   88.5   88.2          1         1
+Admitted to hospital      23354  4,426,872.5    8.2    8.2          2         2
+Left without being seen    4783    857,583.5    1.7    1.6          3         3
+Treated and transferred    2469    695,613.9    0.9    1.3          4         4
+Held for observation       1924    361,575.4    0.7    0.7          5         5
+Died                        184     35,730.1    0.1    0.1          6         6
+Unknown                      11      2,410.7    0.0    0.0          7         7
+
+======== SEX (all years) ========
+           rows          est  row_%  est_%  rank_rows  rank_est
+sex                                                            
+Male     157572 29,305,712.4   55.2   54.0          1         1
+Female   127870 24,933,527.9   44.8   46.0          2         2
+Unknown     117     22,789.0    0.0    0.0          3         3
+
+======== HOSPITAL_TYPE (all years) ========
+                 rows          est  row_%  est_%  rank_rows  rank_est
+hospital_type                                                        
+Small           40171 16,359,580.8   14.1   30.1          4         1
+Large           45628 13,115,519.0   16.0   24.2          3         2
+Medium          37064 13,014,909.0   13.0   24.0          5         3
+Very large     109737 10,022,159.6   38.4   18.5          1         4
+Children's      52959  1,749,860.9   18.5    3.2          2         5
+
+======== AGE_GROUP (all years) ========
+            rows          est  row_%  est_%  rank_rows  rank_est
+age_group                                                       
+65+        46504 10,916,413.9   16.3   20.1          3         1
+25-44      50658 10,851,229.7   17.7   20.0          2         2
+5-14       62670  9,436,649.7   21.9   17.4          1         3
+45-64      41407  9,117,153.5   14.5   16.8          5         4
+15-24      43031  8,336,875.3   15.1   15.4          4         5
+0-4        41278  5,601,109.2   14.5   10.3          6         6
+
+======== TOP 5 PRODUCTS BY YEAR (est) ========
+2005
+                                                          rows         est  est_%  rank_rows
+product                                                                                     
+Stairs or steps                                           5948 1,076,293.9    8.5          1
+Floors or flooring materials                              4647   828,584.9    6.6          2
+Bicycles and accessories (excl. mountain or all-terrain)  3001   501,454.0    4.0          4
+Basketball, activity and related equipment                3065   499,133.9    4.0          3
+Beds or bedframes, other or not specified                 2541   420,886.3    3.3          6
+2014
+                                                          rows         est  est_%  rank_rows
+product                                                                                     
+Stairs or steps                                           6039 1,133,051.2    8.2          1
+Floors or flooring materials                              5343 1,115,539.4    8.1          2
+Beds or bedframes, other or not specified                 3342   611,626.2    4.4          3
+Basketball, activity and related equipment                3109   508,452.6    3.7          4
+Bicycles and accessories (excl. mountain or all-terrain)  2758   491,071.2    3.5          5
+2023
+                                                          rows         est  est_%  rank_rows
+product                                                                                     
+Floors or flooring materials                              5413 1,097,681.3    8.6          1
+Stairs or steps                                           5220   974,920.1    7.7          2
+Beds or bedframes, other or not specified                 4161   790,189.1    6.2          3
+Bicycles and accessories (excl. mountain or all-terrain)  2061   392,517.7    3.1          4
+Chairs, other or not specified                            1688   314,834.8    2.5          7
+2024
+                                                          rows         est  est_%  rank_rows
+product                                                                                     
+Floors or flooring materials                              5337 1,213,169.0    8.1          2
+Stairs or steps                                           5532 1,192,569.3    7.9          1
+Beds or bedframes, other or not specified                 4646   943,165.4    6.3          3
+Bicycles and accessories (excl. mountain or all-terrain)  2110   432,349.1    2.9          4
+Chairs, other or not specified                            1864   388,791.7    2.6          7
+
+======== PRODUCT GROUP SHARE BY YEAR (est %) ========
+year                              2005  2014  2023  2024
+product_group                                           
+Bathroom                           2.2   3.1   3.9   4.0
+Bikes & micromobility              5.5   5.0   5.7   5.7
+Clothing & personal items          2.5   3.7   4.1   4.2
+Fitness & recreation              10.1  11.0  11.2  10.7
+Floors, stairs & building parts   24.8  25.0  24.1  24.0
+Furniture                         12.9  14.7  16.4  16.6
+Household items & appliances       5.7   5.8   5.8   5.9
+Kitchen & cooking                  8.1   7.2   7.0   7.0
+Medicines, chemicals & poisons     1.8   1.5   1.4   1.4
+Off-road & recreational vehicles   2.1   1.6   1.7   1.5
+Other                              1.6   0.3   0.4   0.4
+Team & ball sports                13.7  12.8  10.6  10.7
+Tools, yard & DIY                  7.3   6.9   6.0   6.2
+Toys, babies & kids' products      1.6   1.5   1.7   1.6
+
+======== AGE ========
+unknown age rows: 11 | infant(201-223) rows: 16824
+raw age mean (WRONG, mixes codes): 44.41
+decoded mean age rows: 31.9 | weighted: 36.53 | median rows: 23.0
+by year decoded mean (weighted): {2005: 30.81, 2014: 34.23, 2023: 39.84, 2024: 40.63}
+oldest age: 108.0 | raw age values >120 & <201: 0
+infants est by year: {2005: 551458.0, 2014: 585468.0, 2023: 501746.0, 2024: 574555.0}
+
+======== SEX share by year (est %, excl Unknown) ========
+sex   Female  Male
+year              
+2005    44.6  55.4
+2014    46.5  53.5
+2023    46.4  53.6
+2024    46.3  53.7
+
+======== OUTCOMES: admitted & died by year ========
+      died_rows  died_est  admit_row_%  admit_est_%
+year                                               
+2005       45.0   7,884.4          4.9          4.3
+2014       30.0   6,265.9          6.9          6.3
+2023       53.0  10,053.7         10.5         11.1
+2024       56.0  11,526.2         10.5         10.7
+
+======== DEATHS by product (rows/est, top 10) ========
+                                                    rows     est  row_%  est_%  rank_rows  rank_est
+product                                                                                            
+Beds or bedframes, other or not specified             20 4,215.2   10.9   11.8          2         1
+Floors or flooring materials                          27 4,212.1   14.7   11.8          1         2
+Stairs or steps                                       19 3,824.0   10.3   10.7          3         3
+Bicycles and accessories (excl. mountain or all...    13 2,379.2    7.1    6.7          4         4
+Bathtubs or showers                                   10 1,918.5    5.4    5.4          6         5
+General home or room involvement in fires             12 1,843.5    6.5    5.2          5         6
+Lawn mowers, not specified                             4 1,531.4    2.2    4.3          9         7
+Manual snow or ice removal tools                       4 1,177.5    2.2    3.3          9         8
+Swimming                                               4   908.3    2.2    2.5          9         9
+Exercise (activity or apparel, without equip)          4   809.7    2.2    2.3          9        10
+
+======== DEATHS by age_group ========
+           rows      est  row_%  est_%  rank_rows  rank_est
+age_group                                                  
+65+          79 15,875.5   43.4   45.0          1         1
+45-64        38  7,913.3   20.9   22.4          2         2
+25-44        25  5,345.4   13.7   15.1          3         3
+0-4          21  2,452.6   11.5    6.9          4         4
+15-24        12  2,191.1    6.6    6.2          5         5
+5-14          7  1,524.0    3.8    4.3          6         6
+
+======== ADMISSION rate by age_group (est %) ========
+age_group
+0-4      2.2
+5-14     1.8
+15-24    2.2
+25-44    3.9
+45-64    9.2
+65+     24.7
+dtype: float64
+
+======== ADMISSION rate by product_group (est %) ========
+product_group
+Bathroom                           16.7
+Floors, stairs & building parts    12.7
+Furniture                          11.5
+Off-road & recreational vehicles   11.3
+Other                               9.5
+Bikes & micromobility               7.8
+Clothing & personal items           6.5
+Household items & appliances        6.4
+Tools, yard & DIY                   6.2
+Medicines, chemicals & poisons      5.7
+Fitness & recreation                4.7
+Kitchen & cooking                   2.9
+Toys, babies & kids' products       2.8
+Team & ball sports                  1.9
+dtype: float64
+
+======== LOCATION: share at Home, two denominators, by year ========
+2005 home/all=52.8% home/known=66.5% not_recorded=20.6%
+2014 home/all=45.2% home/known=63.3% not_recorded=28.7%
+2023 home/all=37.3% home/known=57.3% not_recorded=35.0%
+2024 home/all=36.0% home/known=57.3% not_recorded=37.2%
+location values: ['Other public property', 'Sports/recreation place', 'Home', 'Not recorded', 'Street/highway', 'Mobile home', 'School/daycare', 'Farm/ranch', 'Industrial']
+
+======== ALCOHOL (2023-24 only) ========
+      yes_rows  yes_row_%  yes_est_%
+year                                
+2023   1,330.0        2.0        2.2
+2024   1,270.0        1.8        2.1
+top products where alcohol=1:
+                                                    rows       est  row_%  est_%  rank_rows  rank_est
+product                                                                                              
+Stairs or steps                                      491 108,394.0   18.9   18.1          1         1
+Floors or flooring materials                         356  83,735.5   13.7   14.0          2         2
+Bicycles and accessories (excl. mountain or all...   147  31,081.1    5.7    5.2          3         3
+Beds or bedframes, other or not specified            100  22,072.2    3.8    3.7          4         4
+Chairs, other or not specified                        81  20,295.5    3.1    3.4          7         5
+Ceilings and walls (interior part of completed ...    83  18,918.1    3.2    3.2          6         6
+Scooters, powered                                     84  17,179.7    3.2    2.9          5         7
+Bathtubs or showers                                   61  12,933.7    2.3    2.2          8         8
+alcohol by sex (est %): {'Female': 1.5, 'Male': 2.7, 'Unknown': 2.2}
+
+======== HOSPITAL TYPE: rows vs est (oversampling) ========
+                 rows          est  row_%  est_%  rank_rows  rank_est
+hospital_type                                                        
+Small           40171 16,359,580.8   14.1   30.1          4         1
+Large           45628 13,115,519.0   16.0   24.2          3         2
+Medium          37064 13,014,909.0   13.0   24.0          5         3
+Very large     109737 10,022,159.6   38.4   18.5          1         4
+Children's      52959  1,749,860.9   18.5    3.2          2         5
+                min  mean   max
+hospital_type                  
+Children's     28.6  33.0  38.8
+Large         150.9 287.4 371.9
+Medium        191.7 351.1 560.8
+Small         333.7 407.2 540.3
+Very large     71.5  91.3 137.9
+
+======== UNKNOWN shares by year (row %) ========
+      location_NR  diag_other  body_unknown  sex_unknown  outcome_unknown  age_0
+year                                                                            
+2005         22.0         7.4           0.6          0.0              0.0    0.0
+2014         28.7        13.1           0.5          0.0              0.0    0.0
+2023         34.6        20.7           2.6          0.1              0.0    0.0
+2024         36.9        21.5           2.6          0.1              0.0    0.0
+
+======== SEASONALITY: est by month & day of week (all years) ========
+{1: 4035.0, 2: 3766.0, 3: 4276.0, 4: 4511.0, 5: 4921.0, 6: 4773.0, 7: 4973.0, 8: 4907.0, 9: 4912.0, 10: 4774.0, 11: 4219.0, 12: 4194.0}
+{0: 7990.0, 1: 7557.0, 2: 7441.0, 3: 7381.0, 4: 7390.0, 5: 8170.0, 6: 8334.0} (0=Mon)
+busiest single date: 2014-04-12 00:00:00 | by rows: 2014-05-04 00:00:00
+
+======== NARRATIVE length by year ========
+      mean  max
+year           
+2005  65.1  142
+2014  77.7  142
+2023 117.6  400
+2024 133.1  400

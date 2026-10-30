@@ -1,0 +1,9 @@
+# raw data is too big for git; each person copies the CSVs into data/ (see README section in CLAUDE.md)
+data/*.csv
+data/*.parquet
+data/*.pptx
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+# charts/*.png are tracked on purpose: the deck needs them
